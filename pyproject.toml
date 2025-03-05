@@ -1,0 +1,23 @@
+[project]
+name = "multiagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ajmal Khan", email = "128520849+Ajmalniz@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=0.102.0",
+    "crewai-tools>=0.36.0",
+]
+
+[project.scripts]
+multiagent = "multiagent:main"
+project = "multiagent.project_planning:main"
+
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
