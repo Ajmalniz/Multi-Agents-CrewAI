@@ -1,169 +1,96 @@
 {
     "tasks": [
         {
-            "task_name": "Define Project Scope and Objectives",
+            "task_name": "Define App Features",
             "estimated_time_hours": 40.0,
             "required_resources": [
-                "Ajmal Khan"
+                "Ajmal khan",
+                "Abdul Raqeb"
             ]
         },
         {
-            "task_name": "Conduct Stakeholder Analysis",
-            "estimated_time_hours": 24.0,
-            "required_resources": [
-                "Ajmal Khan"
-            ]
-        },
-        {
-            "task_name": "Develop Detailed Requirements Document",
-            "estimated_time_hours": 72.0,
-            "required_resources": [
-                "Ajmal Khan"
-            ]
-        },
-        {
-            "task_name": "Design Website Architecture",
-            "estimated_time_hours": 48.0,
-            "required_resources": [
-                "Adul Baseer"
-            ]
-        },
-        {
-            "task_name": "Create Project Schedule",
+            "task_name": "UI Design Mockups",
             "estimated_time_hours": 40.0,
             "required_resources": [
-                "Ajmal Khan"
+                "Abdul Raqeb",
+                "Ajmal khan"
             ]
         },
         {
-            "task_name": "Set up Project Management Tools",
-            "estimated_time_hours": 16.0,
+            "task_name": "Database Design",
+            "estimated_time_hours": 32.0,
             "required_resources": [
-                "Ajmal Khan"
+                "Abdul Raqeb"
             ]
         },
         {
-            "task_name": "Design UI/UX for the LMS website",
-            "estimated_time_hours": 80.0,
-            "required_resources": [
-                "Adul Baseer"
-            ]
-        },
-        {
-            "task_name": "Develop Frontend (HTML, CSS, JavaScript)",
+            "task_name": "Backend Development",
             "estimated_time_hours": 160.0,
             "required_resources": [
-                "Ajmal Khan"
+                "Abdul Raqeb"
             ]
         },
         {
-            "task_name": "Develop Backend (database design, API development, server setup)",
-            "estimated_time_hours": 160.0,
+            "task_name": "Frontend Development",
+            "estimated_time_hours": 200.0,
             "required_resources": [
-                "Ajmal Khan"
-            ]
-        },
-        {
-            "task_name": "Integrate Frontend and Backend",
-            "estimated_time_hours": 80.0,
-            "required_resources": [
-                "Ajmal Khan"
-            ]
-        },
-        {
-            "task_name": "Develop Admin Panel",
-            "estimated_time_hours": 80.0,
-            "required_resources": [
-                "Ajmal Khan"
-            ]
-        },
-        {
-            "task_name": "Unit Testing (Frontend and Backend)",
-            "estimated_time_hours": 40.0,
-            "required_resources": [
-                "Abdul Raqeeb"
+                "Abdul Raqeb"
             ]
         },
         {
             "task_name": "Integration Testing",
             "estimated_time_hours": 40.0,
             "required_resources": [
-                "Abdul Raqeeb"
+                "Abdul Raqeb"
             ]
         },
         {
-            "task_name": "User Acceptance Testing (UAT) with stakeholders",
-            "estimated_time_hours": 80.0,
+            "task_name": "User Acceptance Testing (UAT)",
+            "estimated_time_hours": 32.0,
             "required_resources": [
-                "Abdul Raqeeb"
+                "Abdul Baseer",
+                "Ajmal khan"
             ]
         },
         {
             "task_name": "Bug Fixing and Refinement",
             "estimated_time_hours": 40.0,
             "required_resources": [
-                "Ajmal Khan"
+                "Abdul Raqeb"
             ]
         },
         {
-            "task_name": "Website Deployment to Server",
-            "estimated_time_hours": 8.0,
+            "task_name": "Deployment",
+            "estimated_time_hours": 16.0,
             "required_resources": [
-                "Ajmal Khan"
-            ]
-        },
-        {
-            "task_name": "Monitor website performance and address any issues",
-            "estimated_time_hours": 40.0,
-            "required_resources": [
-                "Ajmal Khan"
-            ]
-        },
-        {
-            "task_name": "Gather user feedback and plan for future improvements",
-            "estimated_time_hours": 40.0,
-            "required_resources": [
-                "Ajmal Khan"
+                "Ajmal khan",
+                "Abdul Raqeb"
             ]
         }
     ],
     "milestones": [
         {
-            "milestone_name": "Project Initiation & Planning Complete",
+            "milestone_name": "Requirements Gathering and Analysis Complete",
             "tasks": [
-                "Define Project Scope and Objectives",
-                "Conduct Stakeholder Analysis",
-                "Develop Detailed Requirements Document",
-                "Design Website Architecture",
-                "Create Project Schedule",
-                "Set up Project Management Tools"
+                "Define App Features",
+                "UI Design Mockups",
+                "Database Design"
             ]
         },
         {
-            "milestone_name": "Design and Development Complete",
+            "milestone_name": "Development Complete",
             "tasks": [
-                "Design UI/UX for the LMS website",
-                "Develop Frontend (HTML, CSS, JavaScript)",
-                "Develop Backend (database design, API development, server setup)",
-                "Integrate Frontend and Backend",
-                "Develop Admin Panel"
+                "Backend Development",
+                "Frontend Development",
+                "Integration Testing"
             ]
         },
         {
             "milestone_name": "Testing and Deployment Complete",
             "tasks": [
-                "Unit Testing (Frontend and Backend)",
-                "Integration Testing",
-                "User Acceptance Testing (UAT) with stakeholders",
+                "User Acceptance Testing (UAT)",
                 "Bug Fixing and Refinement",
-                "Website Deployment to Server"
-            ]
-        },
-        {
-            "milestone_name": "Post-Launch Activities Complete",
-            "tasks": [
-                "Monitor website performance and address any issues",
-                "Gather user feedback and plan for future improvements"
+                "Deployment"
             ]
         }
     ]
