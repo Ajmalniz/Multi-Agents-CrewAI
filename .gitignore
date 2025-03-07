@@ -10,3 +10,6 @@ wheels/
 .venv
 .env
 
+.mypy_cache
+.files
+.chainlit

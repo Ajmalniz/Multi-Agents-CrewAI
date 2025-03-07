@@ -1,1 +1,31 @@
-tasks=[TaskEstimate(task_name='Project Kick-off Meeting', estimated_time_hours=16.0, required_resources=['Ajmal Khan (Project Manager)']), TaskEstimate(task_name='Competitor Analysis', estimated_time_hours=24.0, required_resources=['Abdul Raqeeb (Designer)']), TaskEstimate(task_name='Wireframing & Sitemap', estimated_time_hours=40.0, required_resources=['Abdul Raqeeb (Designer)']), TaskEstimate(task_name='UI Design', estimated_time_hours=56.0, required_resources=['Abdul Raqeeb (Designer)']), TaskEstimate(task_name='Design Review & Approval', estimated_time_hours=16.0, required_resources=['Ajmal Khan (Project Manager)']), TaskEstimate(task_name='Front-End Development', estimated_time_hours=120.0, required_resources=['Ajmal Khan (Software Engineer)']), TaskEstimate(task_name='Back-End Development', estimated_time_hours=120.0, required_resources=['Ajmal Khan (Software Engineer)']), TaskEstimate(task_name='Content Integration', estimated_time_hours=40.0, required_resources=['Ajmal Khan (Software Engineer)']), TaskEstimate(task_name='Blog Setup', estimated_time_hours=24.0, required_resources=['Ajmal Khan (Software Engineer)']), TaskEstimate(task_name='Unit Testing', estimated_time_hours=24.0, required_resources=['Musadic (QA Engineer)', 'Abdul Baseer (QA Engineer)']), TaskEstimate(task_name='Integration Testing', estimated_time_hours=24.0, required_resources=['Musadic (QA Engineer)', 'Abdul Baseer (QA Engineer)']), TaskEstimate(task_name='User Acceptance Testing (UAT)', estimated_time_hours=80.0, required_resources=['Ajmal Khan (Project Manager)', 'Musadic (QA Engineer)', 'Abdul Baseer (QA Engineer)']), TaskEstimate(task_name='Bug Fixing & Refinement', estimated_time_hours=32.0, required_resources=['Ajmal Khan (Software Engineer)']), TaskEstimate(task_name='Website Deployment', estimated_time_hours=8.0, required_resources=['Ajmal Khan (Software Engineer)']), TaskEstimate(task_name='Post-Launch Review', estimated_time_hours=16.0, required_resources=['Ajmal Khan (Project Manager)'])] milestones=[Milestone(milestone_name='Planning & Design Complete', tasks=['Project Kick-off Meeting', 'Competitor Analysis', 'Wireframing & Sitemap', 'UI Design', 'Design Review & Approval']), Milestone(milestone_name='Development Complete', tasks=['Front-End Development', 'Back-End Development', 'Content Integration', 'Blog Setup']), Milestone(milestone_name='Testing & Deployment Complete', tasks=['Unit Testing', 'Integration Testing', 'User Acceptance Testing (UAT)', 'Bug Fixing & Refinement', 'Website Deployment']), Milestone(milestone_name='Project Complete', tasks=['Post-Launch Review'])]
+## Project Plan
+
+### Tasks
+| task_name                                                        |   estimated_time_hours | required_resources   |
+|:-----------------------------------------------------------------|-----------------------:|:---------------------|
+| Define Project Scope and Objectives                              |                     40 | ['Ajmal Khan']       |
+| Conduct Stakeholder Analysis                                     |                     24 | ['Ajmal Khan']       |
+| Develop Detailed Requirements Document                           |                     72 | ['Ajmal Khan']       |
+| Design Website Architecture                                      |                     48 | ['Adul Baseer']      |
+| Create Project Schedule                                          |                     40 | ['Ajmal Khan']       |
+| Set up Project Management Tools                                  |                     16 | ['Ajmal Khan']       |
+| Design UI/UX for the LMS website                                 |                     80 | ['Adul Baseer']      |
+| Develop Frontend (HTML, CSS, JavaScript)                         |                    160 | ['Ajmal Khan']       |
+| Develop Backend (database design, API development, server setup) |                    160 | ['Ajmal Khan']       |
+| Integrate Frontend and Backend                                   |                     80 | ['Ajmal Khan']       |
+| Develop Admin Panel                                              |                     80 | ['Ajmal Khan']       |
+| Unit Testing (Frontend and Backend)                              |                     40 | ['Abdul Raqeeb']     |
+| Integration Testing                                              |                     40 | ['Abdul Raqeeb']     |
+| User Acceptance Testing (UAT) with stakeholders                  |                     80 | ['Abdul Raqeeb']     |
+| Bug Fixing and Refinement                                        |                     40 | ['Ajmal Khan']       |
+| Website Deployment to Server                                     |                      8 | ['Ajmal Khan']       |
+| Monitor website performance and address any issues               |                     40 | ['Ajmal Khan']       |
+| Gather user feedback and plan for future improvements            |                     40 | ['Ajmal Khan']       |
+
+### Milestones
+| milestone_name                         | tasks                                                                                                                                                                                                          |
+|:---------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Project Initiation & Planning Complete | ['Define Project Scope and Objectives', 'Conduct Stakeholder Analysis', 'Develop Detailed Requirements Document', 'Design Website Architecture', 'Create Project Schedule', 'Set up Project Management Tools'] |
+| Design and Development Complete        | ['Design UI/UX for the LMS website', 'Develop Frontend (HTML, CSS, JavaScript)', 'Develop Backend (database design, API development, server setup)', 'Integrate Frontend and Backend', 'Develop Admin Panel']  |
+| Testing and Deployment Complete        | ['Unit Testing (Frontend and Backend)', 'Integration Testing', 'User Acceptance Testing (UAT) with stakeholders', 'Bug Fixing and Refinement', 'Website Deployment to Server']                                 |
+| Post-Launch Activities Complete        | ['Monitor website performance and address any issues', 'Gather user feedback and plan for future improvements']                                                                                                |
